@@ -1,6 +1,9 @@
+# This script is used to install LAMP stack in CentOs 7
+
+# Shebang line to tell the kernel to run the commands present in the file.
 #!/bin/sh
 
-# installing apache
+# installing Apache
 yum install -y httpd
 
 # To start the apache on your VM
