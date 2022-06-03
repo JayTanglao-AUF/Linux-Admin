@@ -33,7 +33,7 @@ systemctl start mariadb
 # to run a simple security script
 mysql_secure_installation
 
-# Answering all questions to yes and setting up a password
+# Answering all questions to yes and setting up a password for mysql
 echo "& y y abc abc y y y y" | ./usr/bin/mysql_secure_installation
 # to start at boot
 systemctl enable mariadb
